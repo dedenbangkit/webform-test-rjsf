@@ -848,7 +848,8 @@
         "children": [
           {
             "id": "38",
-            "type": "array",
+            "type": "array_of_string",
+            "add": "Add Link",
             "description": "Links to further information ( websites, reports etc). please provide i.e. copy and paste links, URL's, website links etc to documents about your action. We are interested in websites, reports, images, media articles etc. Please place only one link per box provided."
           },
           {
@@ -866,10 +867,11 @@
           },
           {
             "id": "39.1",
-            "type": "array",
+            "type": "array_of_string",
             "description": "Please provide the URL",
+            "add": "Add URL",
             "rule": {
-              "id": "39.1",
+              "id": "39",
               "enum": [
                 "Email",
                 "LinkedIn",

@@ -1481,14 +1481,146 @@
           "title": "G7. Related Resources and Contact",
           "type": "object",
           "dependencies": {
-            "": {
-              "oneOf": []
+            "S3_G7_39": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "S3_G7_39": {
+                      "enum": [
+                        "39-0"
+                      ]
+                    },
+                    "S3_G7_39.1": {
+                      "title": "39.1. Please provide the URL",
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "string": true
+                      },
+                      "add": "Add URL"
+                    }
+                  },
+                  "required": [
+                    "S3_G7_39.1"
+                  ]
+                },
+                {
+                  "properties": {
+                    "S3_G7_39": {
+                      "enum": [
+                        "39-1"
+                      ]
+                    },
+                    "S3_G7_39.1": {
+                      "title": "39.1. Please provide the URL",
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "string": true
+                      },
+                      "add": "Add URL"
+                    }
+                  },
+                  "required": [
+                    "S3_G7_39.1"
+                  ]
+                },
+                {
+                  "properties": {
+                    "S3_G7_39": {
+                      "enum": [
+                        "39-2"
+                      ]
+                    },
+                    "S3_G7_39.1": {
+                      "title": "39.1. Please provide the URL",
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "string": true
+                      },
+                      "add": "Add URL"
+                    }
+                  },
+                  "required": [
+                    "S3_G7_39.1"
+                  ]
+                },
+                {
+                  "properties": {
+                    "S3_G7_39": {
+                      "enum": [
+                        "39-3"
+                      ]
+                    },
+                    "S3_G7_39.1": {
+                      "title": "39.1. Please provide the URL",
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "string": true
+                      },
+                      "add": "Add URL"
+                    }
+                  },
+                  "required": [
+                    "S3_G7_39.1"
+                  ]
+                },
+                {
+                  "properties": {
+                    "S3_G7_39": {
+                      "enum": [
+                        "39-4"
+                      ]
+                    },
+                    "S3_G7_39.1": {
+                      "title": "39.1. Please provide the URL",
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "string": true
+                      },
+                      "add": "Add URL"
+                    }
+                  },
+                  "required": [
+                    "S3_G7_39.1"
+                  ]
+                },
+                {
+                  "properties": {
+                    "S3_G7_39": {
+                      "enum": [
+                        "39-5"
+                      ]
+                    },
+                    "S3_G7_39.1": {
+                      "title": "39.1. Please provide the URL",
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "string": true
+                      },
+                      "add": "Add URL"
+                    }
+                  },
+                  "required": [
+                    "S3_G7_39.1"
+                  ]
+                }
+              ]
             }
           },
           "properties": {
             "S3_G7_38": {
               "title": "38. Links to further information ( websites, reports etc). please provide i.e. copy and paste links, URL's, website links etc to documents about your action. We are interested in websites, reports, images, media articles etc. Please place only one link per box provided.",
-              "type": "array"
+              "type": "array",
+              "items": {
+                "type": "string",
+                "string": true
+              },
+              "add": "Add Link"
             },
             "S3_G7_39": {
               "title": "39. Where can users best contact you to learn more?",
