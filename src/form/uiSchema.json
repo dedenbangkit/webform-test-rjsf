@@ -1,0 +1,162 @@
+{
+    "S1": {
+        "classNames": "list-group",
+        "S1_1": {
+            "ui:widget": "radio"
+        }
+    },
+    "S2": {
+        "classNames": "list-group",
+        "S2_G1": {
+            "classNames": "list-group-item",
+            "S2_G1_2": {},
+            "S2_G1_3": {},
+            "S2_G1_4": {
+                "ui:widget": "radio"
+            },
+            "S2_G1_4.1.1": {
+                "ui:widget": "radio"
+            },
+            "S2_G1_4.1.2": {},
+            "S2_G1_4.2.1": {
+                "ui:widget": "radio"
+            },
+            "S2_G1_4.2.2": {},
+            "S2_G1_4.3.1": {
+                "ui:widget": "radio"
+            },
+            "S2_G1_4.3.2": {},
+            "S2_G1_4.4.1": {
+                "ui:widget": "radio"
+            },
+            "S2_G1_4.4.2": {},
+            "S2_G1_4.4.3": {
+                "ui:widget": "radio"
+            },
+            "S2_G1_4.4.4": {},
+            "S2_G1_4.4.5": {},
+            "S2_G1_4.4.6": {}
+        },
+        "S2_G2": {
+            "classNames": "list-group-item",
+            "S2_G2_5": {
+                "ui:widget": "radio"
+            },
+            "S2_G2_5.1": {},
+            "S2_G2_5.2": {
+                "ui:widget": "radio"
+            },
+            "S2_G2_6": {},
+            "S2_G2_7": {
+                "ui:widget": "radio"
+            },
+            "S2_G2_8": {},
+            "S2_G2_9": {
+                "ui:widget": "radio"
+            },
+            "S2_G2_10": {
+                "ui:widget": "radio"
+            },
+            "S2_G2_11": {},
+            "S2_G2_12": {}
+        },
+        "S2_G3": {
+            "classNames": "list-group-item",
+            "S2_G3_13": {
+                "ui:widget": "radio"
+            },
+            "S2_G3_14": {
+                "ui:widget": "radio"
+            }
+        }
+    },
+    "S3": {
+        "classNames": "list-group",
+        "S3_G1": {
+            "classNames": "list-group-item",
+            "S3_G1_15": {
+                "ui:widget": "radio"
+            },
+            "S3_G1_16": {},
+            "S3_G1_17": {
+                "ui:widget": "radio"
+            },
+            "S3_G1_18": {},
+            "S3_G1_19": {
+                "ui:widget": "radio"
+            },
+            "S3_G1_20": {}
+        },
+        "S3_G2": {
+            "classNames": "list-group-item",
+            "S3_G2_21": {},
+            "S3_G2_22": {},
+            "S3_G2_23": {
+                "ui:widget": "radio"
+            },
+            "S3_G2_23.1": {
+                "ui:widget": "radio"
+            },
+            "S3_G2_23.2": {
+                "ui:widget": "radio"
+            },
+            "S3_G2_23.3": {
+                "ui:widget": "radio"
+            },
+            "S3_G2_23.4": {
+                "ui:widget": "radio"
+            }
+        },
+        "S3_G3": {
+            "classNames": "list-group-item",
+            "S3_G3_25": {
+                "ui:widget": "radio"
+            },
+            "S3_G3_26": {},
+            "S3_G3_27": {
+                "ui:widget": "radio"
+            },
+            "S3_G3_28": {},
+            "S3_G3_29": {
+                "ui:widget": "radio"
+            },
+            "S3_G3_30": {
+                "ui:widget": "radio"
+            }
+        },
+        "S3_G4": {
+            "classNames": "list-group-item",
+            "S3_G4_31": {},
+            "S3_G4_32": {}
+        },
+        "S3_G5": {
+            "classNames": "list-group-item",
+            "S3_G5_33": {
+                "ui:widget": "radio"
+            },
+            "S3_G5_34": {},
+            "S3_G5_34.1": {
+                "ui:widget": "radio"
+            },
+            "S3_G5_35": {},
+            "S3_G5_35.1": {
+                "ui:widget": "radio"
+            }
+        },
+        "S3_G6": {
+            "classNames": "list-group-item",
+            "S3_G6_36": {
+                "ui:widget": "radio"
+            },
+            "S3_G6_37": {}
+        },
+        "S3_G7": {
+            "classNames": "list-group-item",
+            "S3_G7_38": {},
+            "S3_G7_39": {
+                "ui:widget": "radio"
+            },
+            "S3_G7_39.1": {}
+        }
+    }
+}

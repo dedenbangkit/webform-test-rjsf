@@ -1,27 +1,34 @@
 import React, { useState } from "react";
-import Form from "@rjsf/core";
+//import Form from "@rjsf/core";
+import Form from "@rjsf/bootstrap-4";
+import schema from "./form/schema.json";
+import uiSchema from "./form/uiSchema.json";
 import { Container, Row, Col } from "react-bootstrap";
 
-function App() {
-  const [formData, setFormData] = useState(null);
-  const cascade = {
-    blank: {
-      type: "string",
-      enum: ["Other"],
-      enumNames: ["Other"],
-    },
-    country: {
-      type: "string",
-      enum: ["DE", "IT", "JP", "US", "Other"],
-      enumNames: ["Deutch", "Italia", "Japan", "United State", "Other"],
-    },
-    US: {
-      type: "string",
-      enum: ["AZ", "CA", "NY"],
-      enumNames: ["Arizona", "California", "New York"],
-    },
-  };
+/*
+const cascade = {
+  blank: {
+    type: "string",
+    enum: ["Other"],
+    enumNames: ["Other"],
+  },
+  country: {
+    type: "string",
+    enum: ["DE", "IT", "JP", "US", "Other"],
+    enumNames: ["Deutch", "Italia", "Japan", "United State", "Other"],
+  },
+  US: {
+    type: "string",
+    enum: ["AZ", "CA", "NY"],
+    enumNames: ["Arizona", "California", "New York"],
+  },
+};
+*/
 
+function App() {
+  const [formData, setFormData] = useState({});
+
+  /*
   const schema = {
     type: "object",
     description: "This is Example Form",
@@ -92,6 +99,8 @@ function App() {
       },
     },
   };
+  */
+  console.log(formData);
 
   return (
     <Container>
@@ -100,9 +109,9 @@ function App() {
           <Form
             schema={schema}
             formData={formData}
+            uiSchema={uiSchema}
             onChange={(e) => setFormData(e.formData)}
             onSubmit={(e) => console.log(e)}
-            uiSchema={uiSchema}
           />
         </Col>
       </Row>
