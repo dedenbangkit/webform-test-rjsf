@@ -15,22 +15,22 @@
             "S2_G1_2": {},
             "S2_G1_3": {},
             "S2_G1_4": {
-                "ui:widget": "radio"
+                "ui:widget": "checkboxes"
             },
             "S2_G1_4.1.1": {
-                "ui:widget": "radio"
+                "ui:widget": "checkboxes"
             },
             "S2_G1_4.1.2": {},
             "S2_G1_4.2.1": {
-                "ui:widget": "radio"
+                "ui:widget": "checkboxes"
             },
             "S2_G1_4.2.2": {},
             "S2_G1_4.3.1": {
-                "ui:widget": "radio"
+                "ui:widget": "checkboxes"
             },
             "S2_G1_4.3.2": {},
             "S2_G1_4.4.1": {
-                "ui:widget": "radio"
+                "ui:widget": "checkboxes"
             },
             "S2_G1_4.4.2": {},
             "S2_G1_4.4.3": {
@@ -75,7 +75,7 @@
                 "ui:widget": "radio"
             },
             "S2_G2_10": {
-                "ui:widget": "radio"
+                "ui:widget": "checkboxes"
             },
             "S2_G2_11": {},
             "S2_G2_12": {},
@@ -95,10 +95,10 @@
         "S2_G3": {
             "classNames": "list-group-item",
             "S2_G3_13": {
-                "ui:widget": "radio"
+                "ui:widget": "checkboxes"
             },
             "S2_G3_14": {
-                "ui:widget": "radio"
+                "ui:widget": "checkboxes"
             },
             "ui:order": [
                 "S2_G3_13",
@@ -150,10 +150,10 @@
                 "ui:widget": "radio"
             },
             "S3_G2_23.3": {
-                "ui:widget": "radio"
+                "ui:widget": "checkboxes"
             },
             "S3_G2_23.4": {
-                "ui:widget": "radio"
+                "ui:widget": "checkboxes"
             },
             "ui:order": [
                 "S3_G2_21",
@@ -168,18 +168,18 @@
         "S3_G3": {
             "classNames": "list-group-item",
             "S3_G3_25": {
-                "ui:widget": "radio"
+                "ui:widget": "checkboxes"
             },
             "S3_G3_26": {},
             "S3_G3_27": {
-                "ui:widget": "radio"
+                "ui:widget": "checkboxes"
             },
             "S3_G3_28": {},
             "S3_G3_29": {
-                "ui:widget": "radio"
+                "ui:widget": "checkboxes"
             },
             "S3_G3_30": {
-                "ui:widget": "radio"
+                "ui:widget": "checkboxes"
             },
             "ui:order": [
                 "S3_G3_25",
